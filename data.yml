@@ -1,0 +1,14 @@
+---
+baseurl: http://example.com
+notices:
+- blogs
+- cartoon
+- columns
+- editorial
+- interview
+- lead
+- letters
+- op-ed
+- open-page
+- Readers-Editor
+- sunday-anchor

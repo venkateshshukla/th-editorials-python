@@ -1,0 +1,4 @@
+anyconfig==0.2.2
+requests==2.7.0
+virtualenv==13.1.2
+wheel==0.26.0
