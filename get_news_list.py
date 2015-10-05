@@ -18,7 +18,7 @@ listurl = baseurl + '/api/list'
 
 # Getting timestamp of 4 days in past
 now = datetime.now()
-prev = now - timedelta(4)
+prev = now - timedelta(1)
 ts = (prev - datetime(1970, 1, 1)).total_seconds()
 
 # Adding the timestamp to payload
@@ -32,4 +32,4 @@ if resp.status_code != 200:
         exit(2)
 else:
         cntnt = json.loads(resp.content)
-        print cntnt
+        print json.dumps(cntnt, indent=2, sort_keys=True)
